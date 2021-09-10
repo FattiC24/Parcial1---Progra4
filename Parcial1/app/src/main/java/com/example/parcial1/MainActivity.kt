@@ -100,9 +100,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         //imprimiendo valores X de 3 en 3
-        for (x in 0..30 step 3){
+        for (x in 30 downTo 0 step 3){
             println(x)
         }
-
+        for (x in 45 downTo 0){
+            println(x)
+        }
         }
 }
